@@ -30,6 +30,11 @@
   top: 15%;
   left: 60%;
   bottom: 5%;
+  /*Given the parent container for the .character or svg, 
+  a top and bottom value will correspond to a height value.
+  This is the same as explicitly setting height: #px. Now the 
+  child height: 100% will work since it's parent has an explict 
+  height now.*/
 }
 
 .controlColumn {

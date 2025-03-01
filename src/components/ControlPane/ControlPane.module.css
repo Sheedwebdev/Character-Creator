@@ -10,7 +10,11 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
-  /* width: 50%; */
+  /* Setting a width: 50% to the controlPane 
+  seems to still work. Why is setting width: 50%
+  to the controlColumn more ideal than this alternative??? */
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .title {
