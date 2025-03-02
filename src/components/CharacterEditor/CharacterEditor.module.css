@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -39,4 +40,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveBar {
+  position: fixed;
+  height: 40%;
+  top: 60%;
+  left: 0px;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
